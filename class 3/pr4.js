@@ -14,7 +14,6 @@ while (i < arr.length) {
         j++
     }
 
-
     i++;
 }
 
