@@ -1,0 +1,36 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <h1>Class 6 example </h1>
+
+    <input type="text" id="name" value="" placeholder="Enter your number" onkeyup="getNameData(this.value)">
+
+    <button type="button" onclick="getMydata()">Get Data</button>
+    <br>
+    <small id="showError" style="color:red"></small>
+    <!-- <button type="button" onmouseover="getMydata()">mouse over</button>
+
+    <button type="button" onmouseout="getMydata()">mouse out</button> -->
+
+
+    <p>OutPut Area/ Result </p>
+    <h1 id="result"></h1>
+</body>
+
+
+
+
+<button type="button" onclick="getData(1)">1</button>
+<button type="button" onclick="getData(2)">2</button>
+<button type="button" onclick="getData(3)">3</button>
+
+<button type="button" onclick="getData('+')">+</button>
+<script src="script.js"></script>
+
+</html>
