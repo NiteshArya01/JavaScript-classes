@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <h1>Event Handling</h1>
+    <button type="button" onclick="myFunction()">Click me</button>
+
+    <h3 id="result"></h3>
+
+    <input type="text" value="" id="name" placeholder="Enter your name" autocomplete="off"
+        onkeyup="getName(this.value)">
+    <button type="button" onclick="getNameData()">Submit</button>
+    <br>
+    <small id="error" style="color: red;"></small>
+
+
+    <h3>Calculator screen</h3>
+    <h4 id="cal-result"></h4>
+    <button type="button" value="1" onclick="buttonClicked(this.value)">1</button>
+    <button type="button" value="2" onclick="buttonClicked(this.value)">2</button>
+    <button type="button" value="3" onclick="buttonClicked(this.value)">3</button>
+    <button type="button" value="4" onclick="buttonClicked(this.value)">4</button>
+    <button type="button" value="+" onclick="buttonClicked(this.value)">+</button>
+    <button type="button" value="-" onclick="buttonClicked(this.value)">-</button>
+    <button type="button" value="=" onclick="buttonClicked(this.value)">=</button>
+</body>
+
+<script src="index.js"></script>
+
+</html>

@@ -17,9 +17,14 @@ add(4, 6);
 function compareTwoNumber(a, b) {
     if (a > b) {
         console.log("a is greater");
+
+
+
+        //
     } else {
         console.log("b is greater");
+
     }
 }
 
-compareTwoNumber();
+compareTwoNumber(3, 6);

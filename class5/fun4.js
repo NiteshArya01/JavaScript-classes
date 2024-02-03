@@ -20,7 +20,7 @@ function mutliply(sunOfadd, mutliplyOfNum) {
 
 // second approch to call a functinon
 mutliply(add(3, 5), 4);
-
+8, 4
 
 
 // write a function to add two number then print the sum and again a fuction to multiply with the sum of two number i.e pass
